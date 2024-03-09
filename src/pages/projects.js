@@ -6,8 +6,8 @@ import Link from "next/link";
 import AnimatedText from "@/components/AnimatedText";
 import { GithubIcon } from "@/components/Icons";
 import p1 from "../../public/images/projects/dapp.png";
-import p2 from "../../public/images/projects/portfolio.png";
-import p3 from "../../public/images/projects/linkt.png";
+import p2 from "../../public/images/projects/expense.png";
+import p3 from "../../public/images/projects/chat.png";
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 const FramerImage = motion(Image);
@@ -130,19 +130,19 @@ const projects = () => {
             </div>
             <div className=" col-span-6 sm:col-span-12">
               <Project
-                title="My personal link tree"
-                type="Landing Template"
-                link="https://agastyalink.netlify.app/"
-                github="https://github.com/Agastya18/Web_development_project"
+                title=" Chat application with React"
+                type="Social web app"
+                link="https://chatty-9opp.onrender.com"
+                github="https://github.com/Agastya18/chat"
                 img={p3}
               />
             </div>
             <div className=" col-span-6 sm:col-span-12">
               <Project
-                title="Portfolio Website with Nextjs"
-                type="Website "
-                link="/"
-                github="https://github.com/Agastya18/portfolio_agastya"
+                title="Personal Expense Tracker"
+                type=" Financial web app"
+                link="https://e-wisely.onrender.com"
+                github="https://github.com/Agastya18/expense-wisely"
                 img={p2}
               />
             </div>
