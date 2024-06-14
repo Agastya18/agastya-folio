@@ -136,6 +136,7 @@ const projects = () => {
                 github="https://github.com/Agastya18/chat"
                 img={p3}
               />
+              
             </div>
             <div className=" col-span-6 sm:col-span-12">
               <Project
