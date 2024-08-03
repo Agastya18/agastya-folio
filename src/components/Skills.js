@@ -49,8 +49,8 @@ const Skills = () => {
         
         <Skill nam="NEXT JS" x={isMobile ? "-9vh" : "0vh"} y={isMobile ? "0vh" : "-39vh"} />
         <Skill nam="NODE JS" x={isMobile ? "9vh" : "45vh"} y={isMobile ? "0vh" : "-38vh"} />
-        <Skill nam="TAILWIND CSS" x={isMobile ? "0vh" : "-40vh"} y={isMobile ? "-10vh" : "40vh"} />
-        <Skill nam="HTML" x={isMobile ? "-20vh" : "40vh"} y={isMobile ? "0vh" : "40vh"} />
+        <Skill nam="Postgresql" x={isMobile ? "0vh" : "-40vh"} y={isMobile ? "-10vh" : "40vh"} />
+        <Skill nam="Graphql" x={isMobile ? "-20vh" : "40vh"} y={isMobile ? "0vh" : "40vh"} />
         <Skill nam="MOONGO DB" x={isMobile ? "0vh" : "60vh"} y={isMobile ? "20vh" : "0vh"} />
         <Skill nam="SOLIDITY" x={isMobile ? "19vh" : "-50vh"} y={isMobile ? "0vh" : "-27vh"} />
       </div>

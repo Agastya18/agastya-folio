@@ -10,6 +10,7 @@ import { easeInOut, motion, useMotionValue } from "framer-motion";
 import art3 from "../../public/images/articles/hardhat.png";
 import art4 from "../../public/images/articles/next.png";
 import art5 from "../../public/images/articles/reac.png";
+import deploy from '../../public/images/articles/deploy.png';
 import TransitionEffect from "@/components/TransitionEffect";
 const FramerImage = motion(Image);
 const MovingImg = ({ img, title, link }) => {
@@ -105,6 +106,15 @@ const article = () => {
             className="mb-16 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl"
           />
           <ul className=" grid grid-cols-2 gap-16 lg:gap-8 md:grid-cols-1 md:gap-y-16">
+
+          <FeatureArticle
+              title="Deploying a MERN Stack Application on a Unified Server"
+              time="3 min read"
+              summary="This guide will walk you through deploying your MERN stack application with both frontend and backend served on the same port (Free on render)."
+              link="https://medium.com/@agastyagaur/deploying-a-mern-stack-application-on-a-unified-server-a-step-by-step-guide-to-cost-free-hosting-a9c2eb0e23a1"
+              img={deploy}
+            />
+            
             <FeatureArticle
               title="Blockchain Development for Beginners: A Comprehensive Guide"
               time="3 min read"
