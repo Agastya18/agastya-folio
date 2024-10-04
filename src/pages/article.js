@@ -10,7 +10,8 @@ import { easeInOut, motion, useMotionValue } from "framer-motion";
 import art3 from "../../public/images/articles/hardhat.png";
 import art4 from "../../public/images/articles/next.png";
 import art5 from "../../public/images/articles/reac.png";
-import deploy from '../../public/images/articles/deploy.png';
+import art6 from "../../public/images/articles/cron.png";
+import deploy from "../../public/images/articles/deploy.png";
 import TransitionEffect from "@/components/TransitionEffect";
 const FramerImage = motion(Image);
 const MovingImg = ({ img, title, link }) => {
@@ -98,7 +99,7 @@ const article = () => {
       <Head>
         <title>Agastya - Article</title>
       </Head>
-      <TransitionEffect/>
+      <TransitionEffect />
       <main className=" w-full mb-16 flex  flex-col items-center justify-center overflow-hidden dark:text-light">
         <Layout className="pt-16">
           <AnimatedText
@@ -107,14 +108,25 @@ const article = () => {
           />
           <ul className=" grid grid-cols-2 gap-16 lg:gap-8 md:grid-cols-1 md:gap-y-16">
 
+
           <FeatureArticle
+              title="Mastering Uptime in 2024: Using GitHub Actions to Set Up Cron Jobs"
+              time="3 min read"
+              summary="This article, guide you through the process of setting up a cron job using GitHub Actions to keep your Render server from spinning down during idle periods."
+              link="https://medium.com/@agastyagaur/mastering-uptime-in-2024-using-github-actions-to-set-up-cron-jobs-and-keep-your-render-server-17c434f20cd1"
+              img={art6}
+            />
+
+            <FeatureArticle
               title="Deploying a MERN Stack Application on a Unified Server"
               time="3 min read"
               summary="This guide will walk you through deploying your MERN stack application with both frontend and backend served on the same port (Free on render)."
               link="https://medium.com/@agastyagaur/deploying-a-mern-stack-application-on-a-unified-server-a-step-by-step-guide-to-cost-free-hosting-a9c2eb0e23a1"
               img={deploy}
             />
+
             
+
             <FeatureArticle
               title="Blockchain Development for Beginners: A Comprehensive Guide"
               time="3 min read"
@@ -133,7 +145,7 @@ const article = () => {
               link="https://agastyagaur.hashnode.dev/embracing-devops-accelerating-software-delivery"
               img={art2}
             />
-              <FeatureArticle
+            <FeatureArticle
               title="React vs Next.js: Which One Should You Choose?"
               time="3 min read"
               summary="
@@ -142,7 +154,7 @@ const article = () => {
               link="https://agastyagaur.hashnode.dev/react-vs-next-js"
               img={art5}
             />
-             <FeatureArticle
+            <FeatureArticle
               title="Why You Should Choose Next.js for Your Web Development Projects"
               time="3 min read"
               summary="
@@ -151,7 +163,6 @@ const article = () => {
               link="https://agastyagaur.hashnode.dev/why-you-should-choose-nextjs-for-your-web-development-projects"
               img={art4}
             />
-           
           </ul>
           <h2 className=" font-bold text-4xl  w-full text-center my-16 mt-32">
             All Article
@@ -163,10 +174,6 @@ const article = () => {
               link="https://agastyagaur.hashnode.dev/unleashing-the-potential-of-hardhat-in-blockchain-development"
               img={art3}
             />
-          
-           
-           
-           
           </ul>
         </Layout>
       </main>

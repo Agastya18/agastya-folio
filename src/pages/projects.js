@@ -8,6 +8,7 @@ import { GithubIcon } from "@/components/Icons";
 import p1 from "../../public/images/projects/dapp.png";
 import p2 from "../../public/images/projects/expense.png";
 import p3 from "../../public/images/projects/chat.png";
+import p4 from "../../public/images/projects/coll.png";
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 const FramerImage = motion(Image);
@@ -51,7 +52,7 @@ const FeaturedProject = ({ type, title, summary, img, link, github }) => {
             target="_blank"
             className=" ml-4 rounded-lg bg-dark text-light p-2 px-6 text-lg font-semibold dark:bg-light dark:text-dark  sm:px-4 sm:text-base"
           >
-            visit project
+            Demo
           </Link>
         </div>
       </div>
@@ -93,7 +94,7 @@ const Project = ({ title, type, img, link, github }) => {
             target="_blank"
             className=" underline  text-lg font-semibold md:text-base"
           >
-            visit
+            Live
           </Link>
           <Link href={github} target="_blank" className="w-8 md:w-6">
             <GithubIcon />
@@ -120,12 +121,12 @@ const projects = () => {
           <div className="grid grid-cols-12 gap-24 gap-y-32  xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
             <div className=" col-span-12">
               <FeaturedProject
-                title="Crowdfunding Decentralized Project"
+                title="Stake-gamble7 "
                 type="Featured Project"
-                link="https://fundmeweb3.netlify.app/"
-                github="https://github.com/Agastya18/Crowd_dapp"
-                img={p1}
-                summary="Developed decentralized crowdfunding project using React,thirdweb,Hardhat "
+                link="https://gambling-stake.onrender.com"
+                github="https://github.com/Agastya18/gambling-stake"
+                img={p4}
+                summary="Deployed the betting website, where user can play different game and bet the amount available in their wallet. "
               />
             </div>
             <div className=" col-span-6 sm:col-span-12">
@@ -142,9 +143,18 @@ const projects = () => {
               <Project
                 title="Personal Expense Tracker"
                 type=" Financial web app"
-                link="https://e-wisely.onrender.com"
-                github="https://github.com/Agastya18/expense-wisely"
+                link="https://graphql-expanse-tracker.onrender.com"
+                github="https://github.com/Agastya18/graphQl-expanse-tracker"
                 img={p2}
+              />
+            </div>
+            <div className=" col-span-6 sm:col-span-12">
+              <Project
+                title="Crowdfunding Decentralized Project"
+                type=" Financial web app"
+                link="https://fundmeweb3.netlify.app/"
+                github="https://github.com/Agastya18/Crowd_dapp"
+                img={p1}
               />
             </div>
             {/* <div className=" col-span-12">feature project</div>

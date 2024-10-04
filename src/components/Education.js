@@ -50,15 +50,15 @@ const Education = () => {
             place="Shri Guru Ram Rai Public School, Haridwar"
             info="Got 86% in class 10th and 89.9% in class 12th board exams and also learn basics of programming"
           />
-          <Detail
+          {/* <Detail
             type="Online Coursework"
             time="2016-2023"
             place=" Coursera And Udamy"
             info=" Completed coursework in advanced topics such as Blockchain and Machine Learning"
-          />
+          /> */}
           <Detail
             type="Bachelor Of Science In Computer Science"
-            time="2020-ongoing"
+            time="2020-2024"
             place="Graphic Era Hill University"
             info="Learn about the tech, made various projects and done competative programming"
           />
