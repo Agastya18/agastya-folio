@@ -9,6 +9,10 @@ import p1 from "../../public/images/projects/dapp.png";
 import p2 from "../../public/images/projects/expense.png";
 import p3 from "../../public/images/projects/chat.png";
 import p4 from "../../public/images/projects/coll.png";
+import p5 from "../../public/images/projects/vid.png";
+import p6 from "../../public/images/projects/algo.png";
+import p7 from "../../public/images/projects/godb.png";
+
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 const FramerImage = motion(Image);
@@ -155,6 +159,38 @@ const projects = () => {
                 link="https://fundmeweb3.netlify.app/"
                 github="https://github.com/Agastya18/Crowd_dapp"
                 img={p1}
+              />
+            </div>
+
+            <div className=" col-span-6 sm:col-span-12">
+              <Project
+                title="VidSum"
+                type="video summarizer agent
+"
+                link="https://video-sum.streamlit.app"
+                github="https://github.com/Agastya18/video-Summarizer-Agent"
+                img={p5}
+              />
+            </div>
+
+
+            <div className=" col-span-6 sm:col-span-12">
+              <Project
+                title="Pied-Piper"
+                type="compression algorithm"
+                link="https://github.com/Agastya18/pied-piper"
+                github="https://github.com/Agastya18/pied-piper"
+                img={p6}
+              />
+            </div>
+
+            <div className=" col-span-6 sm:col-span-12">
+              <Project
+                title="GoGaur "
+                type="key-value database"
+                link="https://github.com/Agastya18/gogaur-db"
+                github="https://github.com/Agastya18/gogaur-db"
+                img={p7}
               />
             </div>
             {/* <div className=" col-span-12">feature project</div>

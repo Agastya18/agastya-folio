@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import { motion } from "framer-motion";
 import Head from "next/head";
+
 import {
   useInView,
   useMotionValue,
@@ -56,26 +57,16 @@ const about = () => {
                 Biography
               </h2>
               <p className=" font-medium">
-                Hello, I'm Agastya Gaur, a skilled web developer and creative
-                UI/UX designer dedicated to crafting captivating and intuitive
-                digital experiences. With a good background in web development,
-                I thrive on transforming clients' visions into stunning
-                realities.
+              
+                hi, i am agastya, As a graduate with a degree in Computer Science and Engineering with a robust proficiency in full-stack development, particularly in the MERN stack and in Go lang, complemented by projects in frontend, backend, blockchain technologies.
               </p>
 
               <p className=" font-medium">
-                My work is driven by a deep passion for seamlessly blending
-                aesthetics and functionality. I believe in creating not just
-                visually appealing designs, but also user-centered solutions
-                that leave a lasting impact. I constantly explore fresh and
-                innovative approaches to ensure my clients' projects stand out
-                from the crowd.
+              Beyond personal projects, I’m an active open-source contributor who loves collaborating with the global dev community. You can find evidence of my coding escapades and contributions over at my GITHUB: https://github.com/Agastya18. I’m looking forward to the opportunity to discuss how I can add value to your team
               </p>
 
               <p className=" font-medium my-4">
-                Whether I'm working on a website or other digital product, I
-                bring my commitment to design excellence and user-centered
-                thinking to every project I work on. I look forward to the
+                I look forward to the
                 opportunity to bring my skills and passion to your next project.
               </p>
             </div>
@@ -95,7 +86,7 @@ const about = () => {
             <div className=" col-span-2 flex flex-col items-end justify-between xl:col-span-8 xl:flex-row xl:items-center md:order-3">
               <div className=" flex flex-col items-end justify-center xl:items-center">
                 <span className=" inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
-                  <AnimatedNumber value={1} />+
+                  <AnimatedNumber value={9} />+
                 </span>
                 <h2 className=" text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm">
                   Satisfied Client
@@ -103,10 +94,10 @@ const about = () => {
               </div>
               <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
-                  <AnimatedNumber value={6} />+
+                  <AnimatedNumber value={12} />+
                 </span>
                 <h2 className="text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm">
-                  Project Compelete
+                  Project Completed
                 </h2>
               </div>
               <div className="flex flex-col items-end justify-center xl:items-center">
@@ -120,6 +111,7 @@ const about = () => {
             </div>
           </div>
           <Skills />
+          <Experience />
           <Education />
         </Layout>
       </main>

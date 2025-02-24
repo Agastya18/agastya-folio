@@ -30,26 +30,17 @@ const Experience = () => {
     }
   )
   return (
-    <div className='my-64'>
-        <h2 className=' font-bold text-8xl mb-32  w-full text-center'>experience</h2>
+    <div className=' my-24'>
+        <h2 className=' font-bold text-8xl mb-20  w-full text-center'>Experience</h2>
 
         <div ref={ref} className='w-[75%] mx-auto relative'>
              <motion.div
                style={{scaleY:scrollYProgress}}
              className=' absolute left-9 top-0 w-[4px] h-full bg-dark origin-top dark:bg-light'/>
             <ul className=' w-full flex flex-col items-center justify-between ml-4'>
-                <Detail position="software engineer" work="Worked on a team responsible for developing new features for Google's 
-search engine, including improving the accuracy and relevance of search results and 
-developing new tools for data analysis and visualization." time="2020-current" address="mountain"/>
- <Detail position="software engineer" work="Worked on a team responsible for developing new features for Google's 
-search engine, including improving the accuracy and relevance of search results and 
-developing new tools for data analysis and visualization." time="2020-current" address="mountain"/>
- <Detail position="software engineer" work="Worked on a team responsible for developing new features for Google's 
-search engine, including improving the accuracy and relevance of search results and 
-developing new tools for data analysis and visualization." time="2020-current" address="mountain"/>
- <Detail position="software engineer" work="Worked on a team responsible for developing new features for Google's 
-search engine, including improving the accuracy and relevance of search results and 
-developing new tools for data analysis and visualization." time="2020-current" address="mountain"/>
+                <Detail position="Software Engineer" comp={"Greenstand"} work="Working on a team responsible for developing the new wallet, (Treetracker), for Greenstand using React-Native. Greenstand provides a secure and user-friendly platform for managing your digital tokens. Sending and receiving tokens takes just a few taps, making it a breeze to transfer them between users.  " time="2025-current" address="Remote"/>
+ <Detail position="Frontend Engineer" comp={"Ggithubstreaks"} work="I am part of a team enhancing Ggithubstreak's platform by designing intuitive UI/UX in Figma and developing innovative tools for GitHub profile comparison, incorporating memes and visualizations for a more engaging experience." time="2024-current" address="Remote"/>
+ 
             </ul>
         </div>
     </div>

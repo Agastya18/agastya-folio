@@ -28,7 +28,7 @@ const Skills = () => {
   
   return (
     <>
-      <h2 className=" font-bold text-center mt-60 text-8xl w-full mb-5 md:text-6xl md:mt-32">
+      <h2 className=" font-bold text-center mt-60 text-8xl w-full mb-3 md:text-6xl md:mt-32">
         Skills
       </h2>
       <div
@@ -47,10 +47,10 @@ const Skills = () => {
         <Skill nam="JAVASCRIPT" x= {isMobile ? "0vh" : "-54vh"} y={isMobile ? "-20vh" : "0vh"}/>
         <Skill nam="REACT" x={isMobile ? "0vh" : "0vh"} y={isMobile ? "10vh" : "24vh"} />
         
-        <Skill nam="NEXT JS" x={isMobile ? "-9vh" : "0vh"} y={isMobile ? "0vh" : "-39vh"} />
+        <Skill nam="RUST" x={isMobile ? "-9vh" : "0vh"} y={isMobile ? "0vh" : "-39vh"} />
         <Skill nam="NODE JS" x={isMobile ? "9vh" : "45vh"} y={isMobile ? "0vh" : "-38vh"} />
         <Skill nam="Postgresql" x={isMobile ? "0vh" : "-40vh"} y={isMobile ? "-10vh" : "40vh"} />
-        <Skill nam="Graphql" x={isMobile ? "-20vh" : "40vh"} y={isMobile ? "0vh" : "40vh"} />
+        <Skill nam="GO" x={isMobile ? "-20vh" : "40vh"} y={isMobile ? "0vh" : "40vh"} />
         <Skill nam="MOONGO DB" x={isMobile ? "0vh" : "60vh"} y={isMobile ? "20vh" : "0vh"} />
         <Skill nam="SOLIDITY" x={isMobile ? "19vh" : "-50vh"} y={isMobile ? "0vh" : "-27vh"} />
       </div>
