@@ -38,8 +38,9 @@ const Experience = () => {
                style={{scaleY:scrollYProgress}}
              className=' absolute left-9 top-0 w-[4px] h-full bg-dark origin-top dark:bg-light'/>
             <ul className=' w-full flex flex-col items-center justify-between ml-4'>
-                <Detail position="Software Engineer" comp={"Greenstand"} work="Working on a team responsible for developing the new wallet, (Treetracker), for Greenstand using React-Native. Greenstand provides a secure and user-friendly platform for managing your digital tokens. Sending and receiving tokens takes just a few taps, making it a breeze to transfer them between users.  " time="2025-current" address="Remote"/>
- <Detail position="Frontend Engineer" comp={"Ggithubstreaks"} work="I am part of a team enhancing Ggithubstreak's platform by designing intuitive UI/UX in Figma and developing innovative tools for GitHub profile comparison, incorporating memes and visualizations for a more engaging experience." time="2024-current" address="Remote"/>
+            <Detail position="Software Engineer" comp={"Datarishi"} work="Integrated Solana Blinks into the website for seamless on-chain interactions from platforms like X (Twitter), developed and deployed Solana smart contracts in Rust with secure Node.js backend support, and contributed to a crypto/sports trading algorithm to predict market movements and generate profitable trades." time="Mar-2025-current" address="Remote"/>
+                <Detail position="SE" comp={"Greenstand"} work="Working on a team responsible for developing the new wallet, (Treetracker), for Greenstand using React-Native. Greenstand provides a secure and user-friendly platform for managing your digital tokens. Sending and receiving tokens takes just a few taps, making it a breeze to transfer them between users.  " time="Jan-2025 Mar-2025" address="Remote"/>
+ <Detail position="Freelancer/Open source" comp={"Ggithubstreaks"} work="I am part of a team enhancing Ggithubstreak's platform by designing intuitive UI/UX in Figma and developing innovative tools for GitHub profile comparison, incorporating memes and visualizations for a more engaging experience." time="2024-current" address="Remote"/>
  
             </ul>
         </div>
